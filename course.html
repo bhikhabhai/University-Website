@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="./style/style.css" type="text/css">
+
+    <!-- Other meta tags and styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="./index.html"><img src="./DDU_Image/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navlink">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li> <a href="./index.html">Home</a></li>
+                    <li> <a href="./about.html">About</a></li>
+                    <li> <a href="./course.html">Course</a></li>
+                    <li> <a href="./blog.html">Blog</a></li>
+                    <li> <a href="./Contact.html">Contact </a></li>
+                 </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+        </nav>
+        <h1>Course</h1>
+    </section>
+
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>"We provide a comprehensive array of courses encompassing diverse disciplines, ensuring our students access top-tier education across fields such as technology, business, healthcare, arts, and sciences."</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>The Intermediate Web Development course is designed for individuals with foundational knowledge 
+                    in HTML, CSS, and JavaScript who seek to expand their skills in creating dynamic and interactive 
+                    websites. This course serves as a bridge between fundamental and advanced web development concepts, 
+                    focusing on enhancing your ability to build responsive and feature-rich web applications.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>The Bachelor of Science in Computer Science program is designed to provide students with a comprehensive 
+                    understanding of computer systems, programming languages, algorithms, and software engineering principles. 
+                    This rigorous and dynamic degree equips graduates with the knowledge and skills necessary to thrive in the 
+                    rapidly evolving field of technology.</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Postgraduate courses represent advanced academic programs designed for individuals who have completed their 
+                    undergraduate studies and seek to further specialize in a particular field. These courses, which typically 
+                    span 1-2 years, offer a deeper understanding of a subject area and often emphasize research, practical 
+                    application, or professional development.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>"Our facilities boast a world-class library, expansive playground, and delectable, nutritious food offerings, providing an enriching and holistic environment for academic growth and well-rounded development."</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./DDU_Image/library.png">
+                <h3>World Class Library</h3>
+                <p>A world-class college library is more than a repository of books; it's a dynamic hub that nurtures knowledge, facilitates learning, and fosters a sense of academic community. By incorporating diverse resources, modern technologies, collaborative spaces, and excellent services, a college can create a thriving intellectual center that supports and enhances the educational journey of its students and faculty.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./DDU_Image/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Creating the largest playground involves meticulous planning, considering safety, inclusivity, diverse play opportunities, and community involvement. By incorporating these elements, a large-scale playground becomes not just a space for recreation but a vibrant, inclusive, and engaging environment for children to learn, grow, and thrive through play.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./DDU_Image/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Tasty and healthy food combines the goodness of nutritious ingredients, creative culinary techniques, and a focus on balanced flavors to make meals enjoyable while supporting overall well-being. By emphasizing natural, whole foods and culinary diversity, individuals can relish delicious meals that nourish both body and soul.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>"We are a leading educational institution committed to fostering academic excellence, innovation, and holistic development,<br> empowering individuals to thrive in a dynamic global landscape."</p>
+
+
+        <div class="icons">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="https://www.github.com/" target="_blank"><i class="fa fa-github"></i></a>
+
+        </div>
+        <p>Made With <br><b>Deep & Bhikhabhai</b></p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById('navlink');
+        function ShowMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hiddenMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+
+</html>
